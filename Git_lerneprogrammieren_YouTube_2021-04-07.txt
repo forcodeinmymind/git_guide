@@ -1,0 +1,92 @@
+Git
+lerneprogrammieren
+YouTube
+2021-04-07
+
+
+Installation
+------------
+Git client
+OR cmder with Git for windows
+
+
+Use in Windows cmd
+------------------
+git --version
+git update-git-for-windows
+
+
+Use in cmder
+------------
+
+use in vs code or other apps with graphical user interfacegit 
+GitHub Desktop
+
+
+git configure
+-------------
+git config --global user.name "<user_name>"
+git config --global user.name
+-> return current setting
+git config --global user.email "<user_email>"
+
+
+git befehle
+-----------
+
+<cwd\> git init
+-> create git repository
+-> <cwd>/.git/
+
+git status
+-> ...
+
+git add <file.file_extension>
+-> add file to repository
+   just added files in <cwd> are in repository
+   'git staging'
+
+git rm --cached <file.file_extension>
+-> un-stage
+
+git rm --cached -r `directory`
+-> un-stage `directory` recursive
+
+git commit -m "message"
+'check in'
+
+↑ local repository
+
+
+remote repository
+-----------------
+-> github
+-> bitbucket
+
+git push
+-> save to remote repository
+
+git pull
+-> load from remote repository (?) compare local to remote?
+
+<cwd> git clone <url from github>
+'check out'
+
+git help config 'push.autoSetupRemote'
+-> auto push?
+
+
+branch
+------
+
+git branch <branch_name>
+-> add branch
+
+git branch
+-> show branches
+
+git checkout <branch_name>
+-> switch to <branch_name>
+
+git merge <branch_name>
+-> merge current branch into <branch_name> 

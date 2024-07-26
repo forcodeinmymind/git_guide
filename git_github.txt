@@ -1,0 +1,21 @@
+from github
+
+
+command line
+------------
+
+create new repository from command line
+
+echo "# gittest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/forcodeinmymind/gittest.git
+git push -u origin main
+
+
+push repository from command line
+git remote add origin https://github.com/forcodeinmymind/gittest.git
+git branch -M main
+git push -u origin main

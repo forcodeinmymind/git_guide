@@ -1,0 +1,7 @@
+
+
+git config --global --add safe.directory '%(prefix)///192.168.0.115/NAS_ShareFolder/SW Def/git_guide'
+-> add directory to the git global safe directories list
+
+git config --global --get-all safe.directory
+-> list all directories that are considered safe by git

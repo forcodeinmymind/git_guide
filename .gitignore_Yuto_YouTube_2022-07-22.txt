@@ -1,0 +1,45 @@
+# .gitignore
+
+
+## git commands
+
+```powershell
+git status
+-> (Sollte) keine Dateien und Ordner aus der .gitignore auflisten.
+
+git rm --cached -r `directory`
+-> `rm` remove directory|file
+-> `--cached` remove only from staging area; not localy
+-> `r` remove directories and their contents recursively
+```
+
+Wenn .gitignore im root directory:
+`/` eigentlich nicht nötig. `directory` genügt
+`/` = relative to root directory
+
+`directory`/ = ignore directories not files
+
+
+## Befehle
+
+```.gitignore
+
+/`directory`/`file`.`extension`
+-> ignore `file`.`extension`
+
+/`directory`
+-> ignore `directory`
+
+*.`extension`
+-> ignore all files with `extension`
+
+/`directory`/*
+-> ignore all contents in directory
+
+!/`directory`/`file`.`extension`
+-> not ignore `file`.`extension` in `directory`
+
+* = `wildcard`
+
+`*end`
+-> all `...` end with `end`
