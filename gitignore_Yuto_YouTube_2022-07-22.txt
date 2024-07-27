@@ -11,6 +11,9 @@ git rm --cached -r `directory`
 -> `rm` remove directory|file
 -> `--cached` remove only from staging area; not localy
 -> `r` remove directories and their contents recursively
+
+git rm --cached -r .
+-> `.` remove ... all
 ```
 
 Wenn .gitignore im root directory:

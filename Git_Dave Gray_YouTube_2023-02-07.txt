@@ -66,6 +66,7 @@ download repository from GitHub
 copy <repository_url> from GitHub
 
 git clone <repository_url>
+-> `git clone https://github.com/username/repository.git`
 -> local copy of repository
 `cd `repository_directory``
 
