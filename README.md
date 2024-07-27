@@ -1,5 +1,5 @@
 # git guide
-1.0.2
+1.0.3
 2024-07-27
 
 
@@ -60,10 +60,21 @@ p.e. `search_term` = `config`
 
 ## Download repository from GitHub
 
-`git clone <repository_url>`
+`git clone `remote_repository_url``
 -> `git clone https://github.com/username/repository.git`
 -> local copy of repository
 `cd `repository_directory``
+
+`git clone `remote_repository_url` `local_directory``
+-> clone remote repository into `local_directory`
+
+
+### Download and replace 
+
+```powershell
+   Remove-Item -Recurse -Force .\`local_repository`
+
+   git clone `remote_repository_url`
 
 
 ## init
